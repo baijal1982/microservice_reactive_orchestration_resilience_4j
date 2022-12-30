@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch OrchestrationApplication",
+            "request": "launch",
+            "mainClass": "com.ps.OrchestrationApplication",
+            "projectName": "ms-launcher"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrchestrationApplication",
+            "request": "launch",
+            "mainClass": "com.example.orchestration.OrchestrationApplication",
+            "projectName": "orchestration"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceAApplication<serviceA>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.ServiceAApplication",
+            "projectName": "serviceA",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+spring:
+  profiles.active: dev
+resilience4j.circuitbreaker:
+  instances:
+    orchestration-service:
+      failureRateThreshold: 100
+      minimumNumberOfCalls: 1
+      slidingWindowType: TIME_BASED
+      slidingWindowSize: 10
+      waitDurationInOpenState: 30s
+      permittedNumberOfCallsInHalfOpenState: 3
+server:
+  port: 9001

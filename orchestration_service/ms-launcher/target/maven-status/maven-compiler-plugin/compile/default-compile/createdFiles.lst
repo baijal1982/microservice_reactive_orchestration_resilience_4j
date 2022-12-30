@@ -1,0 +1,3 @@
+com\ps\OrchestrationApplication.class
+com\ps\configuration\CircuitBreakerConfiguration.class
+com\ps\configuration\OrchestrationConfig.class
